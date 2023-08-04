@@ -1,0 +1,2 @@
+class DestinationCannotBeChangedError(RuntimeError):
+    pass

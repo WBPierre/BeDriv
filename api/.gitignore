@@ -1,0 +1,17 @@
+# Pycharm
+.idea
+
+# Python
+venv
+__pycache__
+.coverage
+htmlcov/
+
+# Credentials
+bedriv-*.json
+
+# Mac
+.DS_Store
+
+# json-server
+db.json

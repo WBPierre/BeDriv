@@ -1,0 +1,2 @@
+class DriveIsNotInWaitingStateError(RuntimeError):
+    pass

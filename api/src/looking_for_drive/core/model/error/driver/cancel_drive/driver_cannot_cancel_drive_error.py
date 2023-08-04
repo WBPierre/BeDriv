@@ -1,0 +1,2 @@
+class DriverCannotCancelDriveError(RuntimeError):
+    pass

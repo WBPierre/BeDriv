@@ -1,0 +1,2 @@
+class CustomerIsNotPickedUpError(RuntimeError):
+    pass

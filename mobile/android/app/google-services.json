@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "714433167641",
+    "firebase_url": "https://bedriv-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "bedriv",
+    "storage_bucket": "bedriv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714433167641:android:9c9b82c071252a6449c588",
+        "android_client_info": {
+          "package_name": "com.mobile.bedriv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714433167641-fquqj59jscll2hmis2cjk6rg6nlbqil7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobile.bedriv",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "714433167641-v8dere61f2kqvms2ou9e43svkuplltio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZzeLP34qP47FMSVGK75h0luP_pLwXYeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714433167641-k5gvg43qniftm6mbv6a67md69qr0b6ak.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "714433167641-70otoq8akhpqqgmnole7280n4a7j36qf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.mobile.bedriv"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

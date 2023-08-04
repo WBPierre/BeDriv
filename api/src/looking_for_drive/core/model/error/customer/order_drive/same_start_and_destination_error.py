@@ -1,0 +1,2 @@
+class SameStartAndDestinationError(RuntimeError):
+    pass

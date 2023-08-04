@@ -1,0 +1,50 @@
+image: docker
+services:
+    - docker:dind
+
+stages:
+    - test
+    - publish
+    - deploy
+
+run_tests:
+    stage: test
+    image: python:3.8
+    script:
+        - pip install -r requirements.txt
+        - pip install -r requirements-dev.txt
+        - coverage run -m unittest discover
+        - coverage xml
+        - coverage report --precision=2
+    artifacts:
+        reports:
+            cobertura: coverage.xml
+    coverage: '/TOTAL.+?(\d+\.\d+\%)/'
+
+push_to_registry:
+    stage: publish
+    image: docker
+    script:
+        - docker login registry.gitlab.com -u $GIT_USER -p $REGISTRY_TOKEN
+        - docker build -t registry.gitlab.com/bluck_2021/api .
+        - docker push registry.gitlab.com/bluck_2021/api
+    rules:
+        - if: $CI_COMMIT_REF_NAME =~ /master/
+
+deploy_to_remote:
+    stage: deploy
+    image: ubuntu
+    before_script:
+        - 'command -v ssh-agent >/dev/null || ( apt-get update -y && apt-get install openssh-client -y )'
+        - eval $(ssh-agent -s)
+        - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+        - mkdir -p ~/.ssh
+        - chmod 700 ~/.ssh
+        - echo "$SSH_KNOWN_HOST" >> ~/.ssh/known_hosts
+        - chmod 644 ~/.ssh/known_hosts
+    script:
+        - scp api.yml deploy $HOST_USER@$HOST_IP:~
+        - scp $GOOGLE_CREDS $HOST_USER@$HOST_IP:$GOOGLE_CREDS_FILENAME
+        - ssh $HOST_USER@$HOST_IP "chmod +x deploy;./deploy $GOOGLE_CREDS_PATH $DISTANCE_MATRIX_KEY $GIT_USER $REGISTRY_TOKEN $STRIPE_API_KEY $PROJECT_ID $BLOCKCHAIN_URL"
+    rules:
+        - if: $CI_COMMIT_REF_NAME =~ /master/

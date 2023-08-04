@@ -1,0 +1,2 @@
+class DriverNotFoundError(RuntimeError):
+    pass

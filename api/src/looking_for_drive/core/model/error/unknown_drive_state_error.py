@@ -1,0 +1,2 @@
+class UnknownDriveStateError(RuntimeError):
+    pass

@@ -1,0 +1,2 @@
+class IncorrectDataFormatError(RuntimeError):
+    pass

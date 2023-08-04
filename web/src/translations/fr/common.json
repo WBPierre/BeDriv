@@ -1,0 +1,183 @@
+{
+  "appBar": {
+    "myAccount": "Mon compte"
+  },
+  "intro": {
+    "mainTitle": "La première plateforme VTC avec 0% de commission",
+    "subTitle": "Lancement prévu en septembre 2021",
+    "newsletterTitle": "Suivez notre développement sur "
+  },
+  "login": {
+    "cardHeader": "Se connecter à BeDriv",
+    "google": "Se connecter avec Google",
+    "facebook": "Se connecter avec Facebook",
+    "download": "Télécharger l'application",
+    "becomeADriver": "Inscrivez-vous en tant que chauffeur",
+    "downloadTheApp": "Télécharger l'application pour créer un profil",
+    "logOff": "Se déconnecter"
+  },
+  "driverProcess": {
+    "welcomeToBeDriv": "Bienvenue chez BeDriv",
+    "toStartup": "Rejoignez-nous dans la transformation du monde du transport privé",
+    "processDesc": "Le processus prendra quelques instants et sera vérifié par notre équipe",
+    "start": "Commencer",
+    "process": {
+      "step1": {
+        "title": "Nous allons avoir besoin de quelques documents",
+        "id": "Pièce d'identité",
+        "criminalRecord": "Casier judiciaire N°3 de moins de 3 mois",
+        "carRegistration": "Carte grise"
+      },
+      "step2": {
+        "title": "Notre politique",
+        "titleText": "Comment fonctionne BeDriv",
+        "desc": "Principium autem unde latius se funditabat, emersit ex negotio tali. Chilo ex vicario et coniux eius Maxima nomine, questi apud Olybrium ea tempestate urbi praefectum, vitamque suam venenis petitam adseverantes inpetrarunt ut hi, quos suspectati sunt, ilico rapti conpingerentur in vincula, organarius Sericus et Asbolius palaestrita et aruspex Campensis.",
+        "chargeDesc": "Chez BeDriv, nous ne prenons des frais que pour assurer le bon fonctionnement de notre système informatique. Ces frais sont ré-évalués chaque mois.",
+        "currentFees": "Frais actuellement :"
+      },
+      "step3": {
+        "title": "Examen en ligne",
+        "sub": "Merci de ne pas quitter la fenêtre avant la fin de l'examen.",
+        "start": "Commencer l'examen",
+        "examDesc": "Afin de réussir l'examen, vous devez obtenir une note minimale de 15/20.",
+        "success": "Vous avez réussi l'examen avec un score de ",
+        "failed": "Vous avez raté l'examen. Merci de lire plus attentivement notre politique."
+      },
+      "step4": {
+        "title": "Status de votre demande",
+        "descPending": "Nous sommes actuellement en train de vérifier votre compte pour statuer sur votre demande.",
+        "descAccepted": "Vous avez autorisé par notre système. Conduisez prudemment et à bientôt ! ;)"
+      }
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "numberOfUsers": "Nombre d'utilisateurs",
+      "numberOfDrivers": "Nombre de chauffeurs",
+      "numberOfDrives": "Nombre de courses en cours",
+      "numberOfTotalDrives": "Nombre de courses réalisées",
+      "numberOfSupportRequest": "Nombre de d'assistance demandée",
+      "numberOfSupportPending": "Nombre d'assistance en cours",
+      "numberOfSupportTreated": "Nombre d'assistance traitée"
+    },
+    "general": {
+      "support": "Support",
+      "driverCenter": "Gestion des chauffeurs",
+      "userCenter": "Gestion des utilisateurs",
+      "given_name": "Prénom",
+      "family_name": "Nom",
+      "rate": "Note globale",
+      "phone": "Téléphone",
+      "driver": "Chauffeur",
+      "email": "Email",
+      "active": "Actif",
+      "delete": "Supprimer le compte",
+      "information": "Informations",
+      "inDrive": "En course",
+      "numberOfDrives": "Nombre de courses effectuées",
+      "accountCreationDate": "Date de création du compte",
+      "lastUpdate": "Dernière mise à jour du profil"
+    },
+    "driverCenter": {
+      "driverInformation": "Chauffeur information",
+      "car": "Voiture",
+      "record": "Extrait de casier",
+      "id": "ID",
+      "documents": "Documents",
+      "carDetails": {
+        "brand": "Marque",
+        "registrationPlate": "Plaque d'immatriculation",
+        "model": "Modèle"
+      },
+      "activate": "Activer",
+      "block": "Désactiver",
+      "goToUserProfile": "Voir le profile utilisateur"
+    },
+    "supportCenter": {
+      "problemsLinkedToDrives":"Problème durant une course",
+      "accountAndPayment": "Compte et méthodes de paiement",
+      "guideCashBackAndBec":"Cash-Back et BEC token",
+      "more":"Plus",
+      "driveDetails": "Détails de la course",
+      "noDrive": "Aucune course liée",
+      "duration": "Durée",
+      "distance": "Distance",
+      "expectedDuration": "Durée estimée",
+      "initialPrice": "Prix initial",
+      "totalPaid": "Prix final",
+      "driverProfile": "Profil du chauffeur",
+      "messages": "Messages",
+      "response": "Réponse",
+      "closeTicket": "Fermer le ticket"
+
+    }
+  },
+  "home": {
+    "layerOne": {
+      "winMore": "Gagnez plus avec BeDriv",
+      "subTitle": "Profitez d'un système sans commission",
+      "signUpAsDriver": "Inscrivez-vous en tant que chauffeur"
+    },
+    "layerTwo": {
+      "firstGrid": {
+        "title": "Utilisez BeDriv pour vos trajets quotidiens",
+        "text": "Le réseau BeDriv est le premier réseau de chauffeurs VTC équitable et responsable.\nNous ne prenons aucune commission sur les courses, et nous vous proposons du cash-back sur chacune de vos courses.\nSur chaque course, grâce à la Blockchain, gagnez X% de \"BEC\" en cash-back.\nVous pourrez utiliser ce cash-back directement sur votre prochaine course, ou bien profitez des offres de certains de nos partenaires (à venir)."
+      },
+      "secondGrid":{
+        "title": "Tous en sécurité face au Covid",
+        "text": "\nTous en sécurité face au Covid\nUtilisez nos services en toute sécurité, grâce aux différentes mesures que nous avons mis en place. Votre sécurité est notre priorité et nous faisons notre maximum pour vous accompagner au quotidien. N'oubliez pas :",
+        "list": {
+          "one": "Le port du masque est obligatoire",
+          "two": "Pas de prise en charge à l'avant du véhicule.",
+          "three": "Une vitre de protection est toujours présente dans le véhicule.",
+          "four": "Nos chauffeurs aèrent l'habitacle après chaque course.",
+          "five": "Limitez vos déplacements selon les réglementations en vigueur."
+        }
+      }
+    },
+    "layerThree": {
+      "first": {
+        "title": "Pratique",
+        "text": "Nous vous accompagnons partout, tous les jours 24h/24h."
+      },
+      "second": {
+        "title": "Cash-Back",
+        "text": "En plus des prix bas, nous vous offrons X% de cash-back sur toutes vos courses !"
+      },
+      "third": {
+        "title": "Équitable",
+        "text": "Grâce à notre politique 0% commission, nous favorisons un service équitable et juste !"
+      }
+    },
+    "layerFour": {
+      "title": "Une question",
+      "text": "Consultez notre FAQ"
+    }
+  },
+  "footer": {
+    "company": "Société",
+    "aboutUs": "À propos de nous",
+    "whitepaper": "White-paper",
+    "policy": "Notre politique",
+    "press": "Presse",
+    "joinUs": "Rejoignez-nous",
+    "services": "Services",
+    "passengers": "Passagers",
+    "drivers": "Chauffeurs",
+    "influencers": "Influenceurs"
+  },
+  "general": {
+    "yourEmail": "Votre email",
+    "next": "Suivant",
+    "back": "Retour",
+    "true": "Vrai",
+    "false": "Faux",
+    "see": "Voir",
+    "empty": "Vide",
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "yes": "Yes",
+    "no": "No",
+    "logout": "Se déconnecter"
+  }
+}

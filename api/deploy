@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -e
+
+export GOOGLE_APPLICATION_CREDENTIALS=$1
+export DISTANCE_MATRIX_KEY=$2
+export STRIPE_API_KEY=$5
+export PROJECT_ID=$6
+export BLOCKCHAIN_URL=$7
+
+docker login registry.gitlab.com -u "$3" -p "$4"
+docker stack deploy -c api.yml --with-registry-auth bedriv

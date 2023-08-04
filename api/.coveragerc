@@ -1,0 +1,25 @@
+[run]
+source =
+    src
+
+[report]
+exclude_lines =
+    # Default
+    pragma: no cover
+
+    # Not implemented
+    raise NotImplementedError
+    pass
+
+    # Debug
+    if __name__ == .__main__.:
+
+    # Typing
+    if TYPE_CHECKING:
+
+omit =
+    # main
+    src/bedriv.py
+
+    # config files
+    src/config/*

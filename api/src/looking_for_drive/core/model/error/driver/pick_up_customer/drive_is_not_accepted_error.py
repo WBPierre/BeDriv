@@ -1,0 +1,2 @@
+class DriveIsNotAcceptedError(RuntimeError):
+    pass

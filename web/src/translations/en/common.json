@@ -1,0 +1,182 @@
+{
+  "appBar": {
+    "myAccount": "My account"
+  },
+  "intro": {
+    "mainTitle": "The first ride platform with 0% commission",
+    "subTitle": "Launch planned for september 2021",
+    "newsletterTitle": "Follow our development on "
+  },
+  "login": {
+    "cardHeader": "Login to BeDriv",
+    "google": "Login with Google",
+    "facebook": "Login with Facebook",
+    "download": "Download the app",
+    "becomeADriver": "Become a driver",
+    "downloadTheApp": "Download the App to create an account",
+    "logOff": "Log out"
+  },
+  "driverProcess": {
+    "welcomeToBeDriv": "Welcome to BeDriv",
+    "toStartup": "You are joining a new era in the transport business",
+    "processDesc": "The process will take few minutes and is subject to verification by our team.",
+    "start": "Start the process",
+    "process": {
+      "step1": {
+        "title": "Documents",
+        "titleText": "We will need a few documents first",
+        "id": "ID",
+        "criminalRecord": "Criminal record less than 3 months old",
+        "carRegistration": "Car registration"
+      },
+      "step2": {
+        "title": "Our policy",
+        "titleText": "How BeDriv works",
+        "desc": "Principium autem unde latius se funditabat, emersit ex negotio tali. Chilo ex vicario et coniux eius Maxima nomine, questi apud Olybrium ea tempestate urbi praefectum, vitamque suam venenis petitam adseverantes inpetrarunt ut hi, quos suspectati sunt, ilico rapti conpingerentur in vincula, organarius Sericus et Asbolius palaestrita et aruspex Campensis.",
+        "chargeDesc": "At BeDriv, we only take fees to provide enough resources to maintain our IT system working. The fees percentage is reconsidered every month.",
+        "currentFees": "Current fees :"
+      },
+      "step3": {
+        "title": "Online Exam",
+        "sub": "Do not leave the exam until your finished.",
+        "start": "Start the exam",
+        "examDesc": "You need to obtain at least 15 out of 20.",
+        "success": "You pass the exam with a score of ",
+        "failed": "You failed the exam. Please read with more attention our policy, and repass it"
+      },
+      "step4": {
+        "title": "Driver registration status",
+        "descPending": "We are currently reviewing your account to process your Driver registration."
+      }
+    }
+  },
+  "admin": {
+    "dashboard": {
+      "numberOfUsers": "Number of users",
+      "numberOfDrivers": "Number of drivers",
+      "numberOfDrives": "Number of drives",
+      "numberOfTotalDrives": "Number of total drives",
+      "numberOfSupportRequest": "Number of support request",
+      "numberOfSupportPending": "Number of support pending",
+      "numberOfSupportTreated": "Number of support treated"
+    },
+    "general": {
+      "support": "Support",
+      "driverCenter": "Driver center",
+      "userCenter": "User center",
+      "given_name": "First name",
+      "family_name": "Family name",
+      "rate": "Global evaluation",
+      "phone": "Phone",
+      "driver": "Driver",
+      "email": "Email",
+      "active": "Active",
+      "delete": "Delete account",
+      "information": "Information",
+      "inDrive": "In drive",
+      "numberOfDrives": "Number of drives made",
+      "accountCreationDate": "Account creation date",
+      "lastUpdate": "Last update"
+    },
+    "supportCenter": {
+      "problemsLinkedToDrives":"Problems during a drive",
+      "accountAndPayment": "Account and payment methods",
+      "guideCashBackAndBec":"Cash-Back and BEC token guide",
+      "more":"More",
+      "driveDetails": "Drive details",
+      "noDrive": "No drive linked",
+      "duration": "Duration",
+      "distance": "Distance",
+      "expectedDuration": "Expected duration",
+      "initialPrice": "Initial price",
+      "totalPaid": "Total paid",
+      "driverProfile": "Driver profile",
+      "messages": "Messages",
+      "response": "Response",
+      "closeTicket": "Close ticket"
+    },
+    "driverCenter": {
+      "driverInformation": "Driver information",
+      "car": "Car",
+      "record": "Record",
+      "id": "ID",
+      "documents": "Documents",
+      "carDetails": {
+        "brand": "Brand",
+        "registrationPlate": "Registration plate",
+        "model": "Model"
+      },
+      "activate": "Activate",
+      "block": "Desactivate",
+      "goToUserProfile": "Go to user profile"
+    }
+  },
+  "home": {
+    "layerOne": {
+      "winMore": "Earn more with BeDriv",
+      "subTitle": "Enjoy a commission-free system",
+      "signUpAsDriver": "Sign up as a driver"
+    },
+    "layerTwo": {
+      "firstGrid": {
+        "title": "Use BeDriv for your daily commute",
+        "text": "The BeDriv network is the first network of fair and responsible VTC drivers.\nWe don't take any commission on the races, and we offer cash back on each of your races.\nOn each race, thanks to the Blockchain, earn X% of \"BEC\" in cash-back.\nYou can use this cash-back directly on your next race, or take advantage of offers from some of our partners (to come)."
+      },
+      "secondGrid": {
+        "title": "All safe in front of the Covid",
+        "text": "\nAll safe in front of the Covid\nUse our services safely, thanks to the various measures we have put in place. Your safety is our priority and we do our best to accompany you on a daily basis. Don't forget:",
+        "list": {
+          "one": "Wearing a mask is mandatory",
+          "two": "No pick-up at the front of the vehicle.",
+          "three": "A protective window is still present in the vehicle.",
+          "four": "Our drivers air the cockpit after each race.",
+          "five": "Limit your travel according to current regulations."
+        }
+      }
+    },
+    "layerThree": {
+      "first": {
+        "title": "Practice",
+        "text": "We accompany you everywhere, every day 24 hours a day."
+      },
+      "second": {
+        "title": "Cash-Back",
+        "text": "In addition to the low prices, we offer X% cash back on all your races!"
+      },
+      "third": {
+        "title": "Fair",
+        "text": "Thanks to our 0% commission policy, we promote a fair and fair service!"
+      }
+    },
+    "layerFour": {
+      "title": "A question",
+      "text": "Check out our FAQ"
+    }
+  },
+  "footer": {
+    "company": "Company",
+    "aboutUs": "About us",
+    "whitepaper": "White-paper",
+    "policy": "Our policy",
+    "press": "Press",
+    "joinUs": "Join",
+    "services": "Services",
+    "passengers": "Passengers",
+    "drivers": "Drivers",
+    "influencers": "Influenceurs"
+  },
+  "general": {
+    "yourEmail": "Your email",
+    "next": "Next",
+    "back": "Back",
+    "true": "True",
+    "false": "False",
+    "see": "See",
+    "empty": "Vide",
+    "save": "Save",
+    "cancel": "Cancel",
+    "yes": "Yes",
+    "no": "No",
+    "logout": "Log out"
+  }
+}

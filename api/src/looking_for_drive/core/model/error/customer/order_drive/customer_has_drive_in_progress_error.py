@@ -1,0 +1,2 @@
+class CustomerHasDriveInProgressError(RuntimeError):
+    pass

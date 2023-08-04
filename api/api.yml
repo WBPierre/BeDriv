@@ -1,0 +1,25 @@
+version: '3.7'
+
+services:
+  rest_api:
+    image: registry.gitlab.com/bluck_2021/api
+    networks:
+      - outside
+    secrets:
+      - firestore_creds
+    environment:
+      GOOGLE_APPLICATION_CREDENTIALS:
+      DISTANCE_MATRIX_KEY:
+      STRIPE_API_KEY:
+      PROJECT_ID:
+      BLOCKCHAIN_URL:
+    network_mode: host
+
+secrets:
+  firestore_creds:
+    file: ./firestore_creds.json
+
+networks:
+  outside:
+    external:
+      name: "host"

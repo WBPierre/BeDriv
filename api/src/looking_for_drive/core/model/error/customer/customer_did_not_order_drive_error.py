@@ -1,0 +1,2 @@
+class CustomerDidNotOrderDriveError(RuntimeError):
+    pass

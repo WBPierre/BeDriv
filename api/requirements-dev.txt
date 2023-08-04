@@ -1,0 +1,2 @@
+coverage==5.5
+mock-firestore==0.10.0

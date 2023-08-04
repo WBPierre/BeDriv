@@ -1,0 +1,2 @@
+class DriveNotFoundError(RuntimeError):
+    pass

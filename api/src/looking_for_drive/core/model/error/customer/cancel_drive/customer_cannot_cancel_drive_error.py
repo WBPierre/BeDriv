@@ -1,0 +1,2 @@
+class CustomerCannotCancelDriveError(RuntimeError):
+    pass
